@@ -38,7 +38,12 @@ standard quick intro:
 ```console
 mkdir /tmp/steward && cd /tmp/steward
 
-echo "{version: '0.1', project: {repository: ayte-io/steward}}" > steward.yml
+cat << EOF > steward.yml
+steward:
+  schema: '0.1'
+project:
+  repository: ayte-io/steward
+EOF
 
 steward skeleton \
   .gitignore:idea .gitignore:visual-studio \

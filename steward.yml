@@ -1,4 +1,5 @@
-version: '0.1'
+steward: 
+  schema: '0.1'
 project:
   copyright: Ayte Labs
   email: dev@ayte.io

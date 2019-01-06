@@ -43,8 +43,8 @@ additional files for steward (templates, for example).
 Example configuration
 
 ```yaml
-version: '0.1' # NOT optional
 steward:
+  schema: '0.1' # NOT optional
   workspace: lib
   # user on whose behalf requests will be made.
   # usually this belongs to global configuration
@@ -133,7 +133,8 @@ future it may also have something else, so all the defaults are nested
 under corresponding key:
 
 ```yaml
-version: '0.1'
+steward:
+  schema: '0.1' # NOT optional
 defaults:
   authentication:
     - source: filesystem

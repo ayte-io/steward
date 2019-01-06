@@ -25,7 +25,7 @@ steward --workspace ~/Workspace/application ...
 
 #### --repository
 
-Sets repository current work is beinf done for. This may be useful when 
+Sets repository current work is being done for. This may be useful when 
 configuration is absent.
 
 ```console
@@ -44,7 +44,7 @@ Please note that this overrides workspace as well.
 
 #### --global-configuration, -c:g
 
-Sets path to globabl configuration file:
+Sets path to global configuration file:
 
 ```console
 steward --global-configuration ~/Workspace/application/steward.yml ...
