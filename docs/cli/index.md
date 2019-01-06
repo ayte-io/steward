@@ -8,6 +8,7 @@ title: CLI
 
 1. [Skeleton](skeleton) - repository bootstrapping
 2. [Release](release) - working with releases
+3. [Token](token) - creating, listing and revoking access tokens
 
 ### Global options
 

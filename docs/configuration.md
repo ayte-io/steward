@@ -46,11 +46,14 @@ Example configuration
 version: '0.1' # NOT optional
 steward:
   workspace: lib
+  # user on whose behalf requests will be made.
+  # usually this belongs to global configuration
+  user: etki
 authentication:
-  - source: environment-variable
+  - source: environment
     type: token
     name: GITHUB_API_TOKEN
-  - source: file
+  - source: filesystem
     type: token
     name: .local/github/token
 project:
@@ -125,7 +128,7 @@ under corresponding key:
 version: '0.1'
 defaults:
   authentication:
-    - source: file
+    - source: filesystem
       type: credentials
       name: /home/etki/.config/ayte/steward/credentials.yml
   project:

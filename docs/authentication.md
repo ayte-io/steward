@@ -7,9 +7,8 @@ on [cli calls](cli#global-options). Currently two types of
 authentication are supported: token (you should use this one) and user
 credentials (you shouldn't use this one, but just for extreme cases).
 Authentication is defined by triplet `type-source-value`, where type is
-`token` or `credentials`, source is `environment-variable` or 
-`filesystem`, and value is either name of environment variable or path 
-to file.
+`token` or `credentials`, source is `environment` or `filesystem`, and 
+value is either name of environment variable or path to file.
  
 Both types of authentication value can be expressed directly or stored in 
 yaml file:

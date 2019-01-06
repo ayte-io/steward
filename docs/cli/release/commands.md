@@ -139,11 +139,11 @@ steward release %name% get prerelease
 steward release 0.1.0 get prerelease
 ```
 
-#### withdraw
+#### revoke
 
 Yanks release. Your users won't be happy unless you're fighting 
 bumblebee-level bug.
 
 ```console
-steward release %name% withdraw
+steward release %name% revoke
 ```

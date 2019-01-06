@@ -22,10 +22,11 @@ passed) into specified directory (current one if it is not specified).
 steward release %release% assets pull [%directory% ...%patterns%]
 ```
 
-### assets withdraw
+### assets revoke
 
-Removes all or matching assets from release.
+Removes all or matching assets from release. If no patterns are 
+specified, yanks everything.
 
 ```yaml
-steward release %release% assets withdraw [...%patterns%]
+steward release %release% assets revoke [...%patterns%]
 ```
