@@ -6,12 +6,19 @@ day.
 
 # [GitHub | Octo] Steward
 
+A tool to manage your GitHub stuff from CLI.
+
 ## Motivation
 
-There is very useful GitHub functionality that is not used extensively, 
-for example, releases and assets. This project is targeted to provide 
-CLI-friendly ways to use them, so your CI would be much easier than it
-was.
+This is just a tool to manage non-common GH functionality from CLI, 
+easy release creation/modification and release asset management in the 
+first place. Of course, there's ton of such applications, but there are
+three reasons that led to creation:
+
+- Alternative applications were either lacking support for some 
+features, non cross-platform or just too messy to use by perfectionists
+- NIH
+- I needed some practice with C#
 
 ## Installation
 

@@ -9,6 +9,9 @@ title: CLI
 1. [Skeleton](skeleton) - repository bootstrapping
 2. [Release](release) - working with releases
 3. [Token](token) - creating, listing and revoking access tokens
+4. [Git](git) - all the regular git operations that are not handled by
+git itself, like simplified squash operation without interactive 
+rebase.
 
 ### Global options
 
