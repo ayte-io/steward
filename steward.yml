@@ -1,6 +1,7 @@
 steward: 
   schema: '0.1'
 project:
+  repository: ayte-io/steward
   copyright: Ayte Labs
   email: dev@ayte.io
   accounts:
