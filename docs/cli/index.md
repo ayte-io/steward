@@ -20,6 +20,15 @@ Sets current workspace:
 steward --workspace ~/Workspace/application ...
 ```
 
+#### --repository
+
+Sets repository current work is beinf done for. This may be useful when 
+configuration is absent.
+
+```console
+steward --repository ayte-io/steward skeleton
+```
+
 #### --configuration, --project-configuration, -c:p
 
 Sets path to project configuration file:

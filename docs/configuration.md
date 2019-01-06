@@ -57,6 +57,7 @@ authentication:
     type: token
     name: .local/github/token
 project:
+  repository: ayte-io/steward
   copyright: Ayte Labs
   email: dev@ayte.team
   # Free-form object that may be used in some of bundled templates
@@ -87,15 +88,22 @@ skeleton:
           gamma: delta
   locations:
     - .config/steward/templates
-  variants:
+  files:
     # license variants are picked up from project configuration
     .gitignore:
-      # for .gitignore that means 'take all those templates and merge them'
-      - IDEA
-      - Visual Studio
-      # this template is not bundled, so it will be searched in locations
-      # specified above
-      - local-overrides
+      variants:
+        # for .gitignore that means 'take all those templates and merge them'
+        - IDEA
+        - Visual Studio
+        # this template is not bundled, so it will be searched in locations
+        # specified above
+        - local-overrides
+    CONTRIBUTORS:
+      conflict-resolution: concatenate 
+      included-by-default: true
+      variants:
+        - etki
+        - ayte-bot
   # skeleton has set of default files, so you can exclude ones you don't need  
   exclude:
     - '*.md'
@@ -140,10 +148,11 @@ defaults:
       twitter: so_mad_so_funny
       odnoklassniki: panin
   skeleton:
-    variants:
+    files:
       .gitignore:
-        - IDEA
-        - Visual Studio
+        variants:
+          - IDEA
+          - Visual Studio
 ```
 
 ### Merge process
