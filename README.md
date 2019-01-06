@@ -56,6 +56,7 @@ steward token confirm otp 333444
 steward release 0.1.0 create \
     'My first release!' \ # title
     'Steward is a dead-simple GitHub helper application' \ # description
+    0.1.0 \ # git revision
     --draft
 
 steward release 0.1.0 assets push
