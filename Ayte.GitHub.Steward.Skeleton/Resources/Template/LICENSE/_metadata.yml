@@ -1,0 +1,3 @@
+conflict-resolution: suffix
+  defaults:
+    included: true

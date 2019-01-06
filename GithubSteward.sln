@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayte.GitHub.Steward.API", "Ayte.GitHub.Steward.API\Ayte.GitHub.Steward.API.csproj", "{D2C77AF1-4056-449B-B750-840D59CB153B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayte.GitHub.Steward.Embedded", "Ayte.GitHub.Steward.Embedded\Ayte.GitHub.Steward.Embedded.csproj", "{706CC571-BC72-4707-B9A8-F233A5B0C911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayte.GitHub.Steward.Application", "Ayte.GitHub.Steward.Application\Ayte.GitHub.Steward.Application.csproj", "{DA993B6B-262D-4FE3-BE02-00C376FF74A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayte.GitHub.Steward.Skeleton", "Ayte.GitHub.Steward.Skeleton\Ayte.GitHub.Steward.Skeleton.csproj", "{3E309270-F472-49EF-8A0A-EC56D30182EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayte.GitHub.Steward.Core", "Ayte.GitHub.Steward.Core\Ayte.GitHub.Steward.Core.csproj", "{C014EA4D-BF2E-42C0-849D-B6453E4C75CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayte.GitHub.Steward.Release", "Ayte.GitHub.Steward.Release\Ayte.GitHub.Steward.Release.csproj", "{2D4FD34E-2913-4078-8BB1-9B21315D37B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayte.GitHub.Steward.Configuration", "Ayte.GitHub.Steward.Configuration\Ayte.GitHub.Steward.Configuration.csproj", "{4E810D96-48DC-4F46-8788-633B13494D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2C77AF1-4056-449B-B750-840D59CB153B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C77AF1-4056-449B-B750-840D59CB153B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C77AF1-4056-449B-B750-840D59CB153B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C77AF1-4056-449B-B750-840D59CB153B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706CC571-BC72-4707-B9A8-F233A5B0C911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706CC571-BC72-4707-B9A8-F233A5B0C911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706CC571-BC72-4707-B9A8-F233A5B0C911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706CC571-BC72-4707-B9A8-F233A5B0C911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA993B6B-262D-4FE3-BE02-00C376FF74A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA993B6B-262D-4FE3-BE02-00C376FF74A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA993B6B-262D-4FE3-BE02-00C376FF74A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA993B6B-262D-4FE3-BE02-00C376FF74A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E309270-F472-49EF-8A0A-EC56D30182EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E309270-F472-49EF-8A0A-EC56D30182EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E309270-F472-49EF-8A0A-EC56D30182EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E309270-F472-49EF-8A0A-EC56D30182EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C014EA4D-BF2E-42C0-849D-B6453E4C75CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C014EA4D-BF2E-42C0-849D-B6453E4C75CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C014EA4D-BF2E-42C0-849D-B6453E4C75CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C014EA4D-BF2E-42C0-849D-B6453E4C75CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4FD34E-2913-4078-8BB1-9B21315D37B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4FD34E-2913-4078-8BB1-9B21315D37B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4FD34E-2913-4078-8BB1-9B21315D37B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4FD34E-2913-4078-8BB1-9B21315D37B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E810D96-48DC-4F46-8788-633B13494D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E810D96-48DC-4F46-8788-633B13494D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E810D96-48DC-4F46-8788-633B13494D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E810D96-48DC-4F46-8788-633B13494D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

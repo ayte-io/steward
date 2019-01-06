@@ -1,0 +1,8 @@
+# IDE files
+.idea
+*.user
+
+# Artifacts
+bin
+obj
+packages

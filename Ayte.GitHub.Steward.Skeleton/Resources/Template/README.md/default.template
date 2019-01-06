@@ -1,0 +1,15 @@
+# {{ project.name }}
+
+{{ project.description }}
+
+## Installation
+
+## Usage
+
+## Licensing
+
+{{ project.copyright }} {{ environment.timestamp.year }}
+
+{%- for license in skeleton.variants.license -%}
+    , {{ license }}
+{%- endfor %}

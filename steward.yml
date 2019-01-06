@@ -1,0 +1,18 @@
+version: '0.1'
+project:
+  copyright: Ayte Labs
+  email: dev@ayte.io
+  accounts:
+    github: ayte-io
+  contacts:
+    site: https://ayte.io
+  license:
+    - MIT
+    - UPL
+release:
+  assets:
+    paths:
+      - path: Ayte.GitHub.Steward.Application/bin/Release/Ayte.GitHub.Steward.Application.exe
+        names: 
+          - steward.exe
+          - steward

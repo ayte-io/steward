@@ -1,0 +1,5 @@
+conflict-resolution: concatenate
+defaults:
+  included: true
+  variants:
+    - idea
